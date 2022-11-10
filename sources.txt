@@ -1,0 +1,8 @@
+Here are the resourses we used for creating our handin website!
+
+inspo for the fancy buttons
+- https://codepen.io/RazorXio/pen/gMaoOW
+- https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage
+
+carousel for sketches
+- https://codepen.io/stiakov/pen/eYNpbyL

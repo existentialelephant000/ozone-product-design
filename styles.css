@@ -1,0 +1,148 @@
+
+body{
+    background-color: #b6aaff;/*
+    background-image: url(images/ozone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+}
+
+
+#front{
+    height: 70vh;
+    text-align: center;
+    margin-top: 30vh;
+}
+.button_slide {
+    color: rgb(0, 0, 0);
+    border: 5px solid #0d0064;
+    border-radius: 20px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #8680ba;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #8680ba;
+  }
+
+  #outer {
+    margin-top: 10vh;
+    margin-bottom: 40vh;
+    text-align: center;
+  }
+
+#introtext{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30%;
+    margin-top: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    line-height: 2;
+}
+
+#part1text{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    margin-top: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    line-height: 2;
+}
+
+#part2text{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    line-height: 2;
+}
+#part2text2{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* Hide the scrollbar for MS Edge */
+  scrollbar-width: none; /* Hide the scrollbar for Mozilla Firefox */
+
+  margin: 0 auto 0 auto;
+  width: 90vw;
+  height: fit-content;
+  
+  border: solid #F3E6FF 5px;
+}
+
+.item {
+    min-width: 300px;
+    min-height: 30vh;
+    margin: 15px;
+  
+    text-align: center;
+  
+    border-radius: 7px;
+  }
+.item2 {
+    min-width: 400px;
+    min-height: 30vh;
+    margin: 15px;
+
+    text-align: center;
+
+    border-radius: 7px;
+}
+
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+  -webkit-overflow-scrolling: touch; /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+}
+
+#part2button{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom: 50%;
+}
+
+#part3button{
+    margin-left: 40%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+
+#prototype {
+    display: block;
+}
+
+#user-instruct{
+    width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Iterative Design</title>
+</head>
+<body>
+
+    <div id="front">
+        <h1>Iterative Design: Ozone</h1>
+        <div id="outer">
+            <div class="button_slide slide_down" onClick="document.getElementById('intro').scrollIntoView();"> See The Process </div>
+        </div>
+    </div>
+
+    <div id="intro">
+        <div id="introtext">
+            <h2> The Project</h2>
+            <p> The goal of this project was to design an interactive interface for an emerging startup. 
+                The project consisted of four major parts: (1) sketching ideas of the interface, (2) creating an interactive, 
+                high-fidelity prototype, (3) conducting user testing on a final, revised prototype, and (4) contacting the start up. 
+            </p>
+            <p>
+                Ozone is “the world’s first fully collaborative video editor in the cloud” (from YCombinator). 
+                The product will allow you to upload and edit high quality footage with other people. The 
+                company describes it as “Figma for video.” They also say that the editor will work even without 
+                a good wifi connection or powerful computer. 
+            </p>
+            <div class="button_slide slide_down" onClick="document.getElementById('part1').scrollIntoView();"> Part I: Ideation and Sketching </div>
+        </div>
+    </div>
+
+    <div id="part1">
+        <div id="part1text">
+            <h2>Part I: Ideation and Sketching</h2>
+            <p> With these goals in mind, we generally want to design 
+                this app with all the features present in other video editors that we’re already familiar with. 
+                 We will also have to come up with some new features that make it clear how collaboration will work.
+            </p>
+            <h3>Sketches and Wireframes (scroll through)</h3>
+        </div>
+        <div class="carousel">
+            <img class="item" src="images/s1.png" width="100" height="100" alt="">
+            <img class="item" src="images/s2.png" width="100" height="100" alt="">
+            <img class="item" src="images/s3.png" width="100" height="100" alt="">
+            <img class="item" src="images/s4.png" width="100" height="100" alt="">
+            <img class="item" src="images/s5.png" width="100" height="100" alt="">
+            <img class="item" src="images/s6.png" width="100" height="100" alt="">
+            <img class="item" src="images/s7.png" width="100" height="100" alt="">
+            <img class="item" src="images/s8.png" width="100" height="100" alt="">
+            <img class="item" src="images/s9.png" width="100" height="100" alt="">
+            <img class="item" src="images/s10.png" width="100" height="100" alt="">
+            <img class="item" src="images/s11.png" width="100" height="100" alt="">
+            <img class="item" src="images/s12.png" width="100" height="100" alt="">
+            <img class="item" src="images/s13.png" width="100" height="100" alt="">
+            <img class="item" src="images/s14.png" width="100" height="100" alt="">
+            <img class="item" src="images/s15.png" width="100" height="100" alt="">
+        </div>
+        <div class="carousel">
+            <img class="item2" src="images/w1.png" width="100" height="100" alt="">
+            <img class="item2" src="images/w2.png" width="100" height="100" alt="">
+            <img class="item2" src="images/w3.png" width="100" height="100" alt="">
+        </div>
+        <div id="part2button" class="button_slide slide_down" onClick="document.getElementById('part2').scrollIntoView();"> Part II: High Fidelity Prototype </div>
+    </div>
+
+    <div id="part2">
+        <div id="part2text">
+            <h2>Part II: High Fidelity Prototype</h2>
+            <h3>Prototype Design Choices</h3>
+            <p>Because this is a collaborative video editing software, we needed 
+                to think about special features to include in our design. We decided to include a 
+                share button, similar to many Google products. It was also challenging to think 
+                about how collaborative video editing would actually work. One idea we came up with 
+                was the concept of a “lock.” Essentially, if a user locks a video or audio file, 
+                it prevents other users from editing it at the same time. This helps eliminate 
+                potential issues with contiguous editing. Also, the idea is that nobody would actually 
+                have to take time to download / update files unless they are unlocked. This would hopefully
+                make the workflow smoother, since each user wouldn’t have to constantly refresh the 
+                project after any edit is made.</p>
+        </div>
+        <p align="center">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1200" height="675" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fqf174mqBWrMeX0ZbeyAhkx%2FOzone-Prototype%253A-Pre-critique%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+        </p>
+        <div id="part2text2">
+            <h3 align="center">Studio Feedback</h3>
+            <p>
+                At our Studio, we recieved feedback which was critical to revising our prototype. 
+                Here is the most important feedback we recieved:
+            </p>
+            <li>Aesthetic theme not consistent </li>
+            <li>Misalignment of elements between different screens</li>
+            <li>Unclear functionality of buttons such as FaceTime and chat buttons</li>
+            <li>Users not sure what a “lock” is or how to start one</li>
+            <li>Button mismapping and deadends </li>
+            <p>
+                Using this feedback, we edited our prototype to its current version
+            </p>
+        </div>
+        <div id="part2text">
+            <h3>Final Prototype</h3>
+        </div>
+        <p align="center">
+            <iframe id="prototype" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1200" height="675" 
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTmwRYkB11cuZDeqfwrMfty%2FOzone-Hi-fi-Prototype%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26node-id%3D40%253A1989%26starting-point-node-id%3D40%253A1989" allowfullscreen></iframe>
+        </p>
+        <div id="part3button" class="button_slide slide_down" onClick="document.getElementById('part3').scrollIntoView();"> Part III: User Testing </div>
+    
+    </div>
+    
+    <div id="part3">
+        <div id="part1text">
+            <h2>Part III: User Testing</h2>
+            <div id="part3text">
+                <h3>User Testing Insturctions:</h3>
+                <img id="user-instruct" src="images/user-instruct.png" alt="">
+            </div>
+            <h3>UserTesting Feedback Videos</h3>
+            <a href="https://app.usertesting.com/v/81977329-5111-4d7e-af14-88a518195079?encrypted_video_handle=17c183cf-2230-465c-b321-64616e18dead&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes ">UserTesting Feedback #1 <br></a>
+            <a href="https://app.usertesting.com/v/8de63293-e7c2-482a-a578-2b2d00f7ab8f?encrypted_video_handle=4f5eb5e8-cbfd-4516-a289-fe978f95ab85&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system ">UserTesting Feedback #2  <br></a>
+            <a href="https://app.usertesting.com/v/155e7447-91a9-4434-8359-9e0174c4329d?encrypted_video_handle=7a86ab21-ec29-4e98-bf89-4895e11554c0&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes ">UserTesting Feedback #3  <br></a>
+            <h3>Results and Analysis</h3>
+            <li>One user did successfully create a new project by choosing the “Choose From Library” option. 
+                However, they did not realize they had created a project, likely because we did not actually 
+                build out the screen for choosing a video clip from their library due to the limits of the 
+                scope of the project. We could have improved this section of our interface by only enabling 
+                the user to create a new project by clicking the “Create New Project” button, rather than 
+                having both the “Choose From Library” and “Upload Clip” buttons link to the main editing screen. 
+                The user also suggested that we include some sort of notification letting them know that they had 
+                successfully created a new project. <br> <br>
+            </li>
+            <li>One user had difficulty opening the chat and video chat functions. This was because they were 
+                accidentally zoomed in on the prototype, and could only view a part of the screen, therefore the 
+                buttons for those two functions (located on the bottom left) were not visible. This was more of an 
+                error of the prototyping software rather than our fault, however we could have been more careful 
+                before submitting the link to ensure that the “Fit to Screen” mode was selected. <br> <br>
+            </li>
+            <li>One user also expected the chat function to be available from the profile home page (where the 
+                projects are located). However, this was a conscious design choice on our part to only locate it 
+                within the main editing page, because the idea was that you can hop on a video call with the 
+                people you are collaborating with on a specific project. She didn’t seem to understand she was 
+                looking at a screen grab from a video chat. This could have been remedied by adding captions 
+                identifying each of the speakers beneath their videos.   <br> <br>
+            </li>
+            <li>A couple of users were confused by the task to enter full screen mode, thinking they were supposed
+                to enter the website into full screen, rather than put the video clip into full screen mode. We 
+                could have worded our task more clearly, e.g. “put the video clip in full screen mode.” <br> <br>
+            </li>
+            <li>One user criticized the Main Audio Theme folder, claiming that although it makes sense to click on
+                it to open it, the UX wasn’t immediately intuitive. She did not like how big the icons were. This 
+                could have been improved by having the Main Audio Theme and other folders be dropdowns within the 
+                same side bar, rather than having them open another container. <br> <br>
+            </li>
+            <li>Despite only having a brief description of how the locking function worked, all users intuitively 
+                knew what the purpose of the locking function would be. <br> <br>
+            </li>
+            <li>Overall, despite these small bugs, the users collectively found our UX easy to use, intuitive, 
+                clear, and user-friendly. All other tasks we asked the users to complete besides those mentioned 
+                above went smoothly and quickly for all users. One user compared it to another existing video
+                editing software she’d used, saying it held up very well in comparison. <br> <br>
+            </li>
+        </div>
+        <div id="part1text">
+            <h2>Thank you for Reading!</h2>
+            <p>We have contacted Ozone with our ideas (Part IV). Who knows, we might have just done some free labor for them ;)</p>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
